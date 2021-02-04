@@ -12,7 +12,7 @@ describe('pruebas en 06-function', () => {
         const expectedObj = {uid:'abc123', username:'machi' };
         const nombre = 'machi';
         const userActive = getUserActive(nombre);
-        
+        //console
         expect(expectedObj).toEqual(userActive);
 
         
